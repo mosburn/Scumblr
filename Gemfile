@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.2.4.4'
+gem 'rails', '4.2.10'
 
 gem 'zip'
-gem 'lograge', '>= 0.9.0'
+gem 'lograge', '>= 0.4.1'
 # Allow using posix-spawn for popen to save memory with multiple threads.
 gem 'posix-spawn'
 
@@ -76,7 +76,7 @@ gem 'sidekiq-limit_fetch', '>= 3.4.0'
 gem 'mlanett-redis-lock', require: 'redis-lock'
 
 #Pagination
-gem 'kaminari', '>= 1.2.1'
+gem 'kaminari', '>= 0.16.1'
 
 #Sidekiq UI
 gem 'sinatra', '>= 2.0.2', require: false
@@ -89,11 +89,11 @@ gem 'slim'
 gem 'jquery-turbolinks', '>= 2.0.2'
 
 #Allowing exporting/importing data into database
-gem 'yaml_db', '>= 0.7.0'
+gem 'yaml_db', '>= 0.4.0'
 
 #Authentication
-gem 'devise', '>= 4.7.1'
-gem 'responders', '>= 2.4.0'
+gem 'devise', '>= 4.1.0'
+gem 'responders', '>= 2.2.0'
 
 #Comments
 gem 'acts_as_commentable_with_threading', '>= 1.2.0'
@@ -110,7 +110,7 @@ gem "hashdiff"
 #gem 'active_scaffold'
 gem "therubyracer"
 gem "less-rails" , ">= 2.5.0" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
-gem 'simple_form', '>= 5.0.0'
+gem 'simple_form', '>= 3.2.1'
 
 gem 'ip'
 
@@ -121,7 +121,7 @@ gem 'net-http-persistent'
 
 gem 'minitest'
 
-gem 'minitest-rails', '>= 3.0.0'
+gem 'minitest-rails', '>= 2.2.1'
 
 group :development, :test, :production do
   gem 'unicorn', '>= 4.8.3'
@@ -140,7 +140,7 @@ gem "redis-rails", ">= 5.0.2"
 group :development, :dirtylaundrydev do
   gem 'spring', group: :development
   gem "ruby-prof"
-  gem 'meta_request', '>= 0.5.0'
+  gem 'meta_request', '>= 0.3.4'
   gem "binding_of_caller"
   gem "bullet", ">= 5.1.0"
   gem 'rack-mini-profiler', '>= 0.10.7', require: false
@@ -183,13 +183,13 @@ end
 gem 'foundation-rails', '5.3.3.0'
 gem 'sass-rails', '5.0.7'
 gem 'sass', '3.2.19'
-gem 'coffee-rails', '4.2.2'
+gem 'coffee-rails', '4.0.1'
 gem 'sprockets', '3.3.5'
 
 
 gem 'uglifier', '>= 2.7.2'
 
-gem 'jquery-rails', '>= 4.4.0'
+gem 'jquery-rails', '>= 3.1.4'
 
 gem 'rb-readline'
 
