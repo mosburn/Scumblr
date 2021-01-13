@@ -18,7 +18,7 @@ gem "brakeman", ">= 3.3.0", require: false
 gem "bundler-audit"
 gem 'rest-client'
 gem 'chartkick', '>= 3.4.0'
-gem 'redcarpet'
+gem 'redcarpet', '>= 3.5.1'
 
 gem 'addressable'
 
