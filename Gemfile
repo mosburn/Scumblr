@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.2.4.4'
+gem 'rails', '6.0.3.5'
 
 gem 'zip'
 gem 'lograge', '>= 0.9.0'
