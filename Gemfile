@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.2.4.4'
+gem 'rails', '5.0.0'
 
 gem 'zip'
 gem 'lograge', '>= 0.9.0'
@@ -79,7 +79,7 @@ gem 'mlanett-redis-lock', require: 'redis-lock'
 gem 'kaminari', '>= 1.2.1'
 
 #Sidekiq UI
-gem 'sinatra', '>= 2.0.2', require: false
+gem 'sinatra', '>= 2.0.0', require: false
 
 #Templating language, not sure if used
 gem 'slim'
@@ -140,7 +140,7 @@ gem "redis-rails", ">= 5.0.2"
 group :development, :dirtylaundrydev do
   gem 'spring', group: :development
   gem "ruby-prof"
-  gem 'meta_request', '>= 0.5.0'
+  gem 'meta_request', '>= 0.4.0'
   gem "binding_of_caller"
   gem "bullet", ">= 5.1.0"
   gem 'rack-mini-profiler', '>= 0.10.7', require: false
@@ -183,13 +183,13 @@ end
 gem 'foundation-rails', '5.3.3.0'
 gem 'sass-rails', '5.0.7'
 gem 'sass', '3.2.19'
-gem 'coffee-rails', '4.2.2'
+gem 'coffee-rails', '4.1.1'
 gem 'sprockets', '3.3.5'
 
 
 gem 'uglifier', '>= 2.7.2'
 
-gem 'jquery-rails', '>= 4.4.0'
+gem 'jquery-rails', '>= 4.0.1'
 
 gem 'rb-readline'
 
