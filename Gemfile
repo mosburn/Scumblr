@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '6.1.7.1'
+gem 'rails', '6.1.7.3'
 
 gem 'zip'
 gem 'lograge', '>= 0.9.0'
@@ -92,7 +92,7 @@ gem 'jquery-turbolinks', '>= 2.0.2'
 gem 'yaml_db', '>= 0.7.0'
 
 #Authentication
-gem 'devise', '>= 4.7.1'
+gem 'devise', '>= 4.7.0'
 gem 'responders', '>= 3.0.0'
 
 #Comments
@@ -110,7 +110,7 @@ gem "hashdiff"
 #gem 'active_scaffold'
 gem "therubyracer"
 gem "less-rails" , ">= 2.5.0" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
-gem 'simple_form', '>= 5.0.0'
+gem 'simple_form', '>= 4.0.0'
 
 gem 'ip'
 
@@ -181,7 +181,7 @@ group :test do
 end
 
 gem 'foundation-rails', '5.3.3.0'
-gem 'sass-rails', '6.0.0'
+gem 'sass-rails', '5.0.8'
 gem 'sass', '3.2.19'
 gem 'coffee-rails', '4.2.2'
 gem 'sprockets', '4.2.0'
@@ -189,7 +189,7 @@ gem 'sprockets', '4.2.0'
 
 gem 'uglifier', '>= 2.7.2'
 
-gem 'jquery-rails', '>= 4.4.0'
+gem 'jquery-rails', '>= 4.0.1'
 
 gem 'rb-readline'
 
