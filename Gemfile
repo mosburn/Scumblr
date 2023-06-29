@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '6.1.7.1'
+gem 'rails', '6.1.7.4'
 
 gem 'zip'
 gem 'lograge', '>= 0.9.0'
@@ -29,7 +29,7 @@ gem 'filesize'
 
 # scott things
 gem 'json-schema-generator'
-gem 'zeroclipboard-rails', '>= 0.1.1'
+gem 'zeroclipboard-rails', '>= 0.1.2'
 
 gem 'activerecord-session_store', git: 'https://github.com/rails/activerecord-session_store'
 #Database gems
@@ -49,7 +49,7 @@ gem 'jira-ruby', '>= 1.2.0'
 gem 'cancan'
 
 #Searching
-gem 'ransack', '>= 1.7.0'
+gem 'ransack', '>= 1.8.0'
 
 #Image processing/attachments
 gem 'paperclip', '>= 5.2.1'
@@ -76,7 +76,7 @@ gem 'sidekiq-limit_fetch', '>= 3.4.0'
 gem 'mlanett-redis-lock', require: 'redis-lock'
 
 #Pagination
-gem 'kaminari', '>= 1.2.1'
+gem 'kaminari', '>= 0.16.2'
 
 #Sidekiq UI
 gem 'sinatra', '>= 2.2.3', require: false
@@ -86,13 +86,13 @@ gem 'slim'
 
 #Performance gem that changes how links are handed
 ##gem 'turbolinks'
-gem 'jquery-turbolinks', '>= 2.0.2'
+gem 'jquery-turbolinks', '>= 2.1.0'
 
 #Allowing exporting/importing data into database
 gem 'yaml_db', '>= 0.7.0'
 
 #Authentication
-gem 'devise', '>= 4.7.1'
+gem 'devise', '>= 4.7.0'
 gem 'responders', '>= 3.0.0'
 
 #Comments
@@ -109,8 +109,8 @@ gem "hashdiff"
 
 #gem 'active_scaffold'
 gem "therubyracer"
-gem "less-rails" , ">= 2.5.0" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
-gem 'simple_form', '>= 5.0.0'
+gem "less-rails" , ">= 2.6.0" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem 'simple_form', '>= 4.0.0'
 
 gem 'ip'
 
@@ -148,7 +148,7 @@ group :development, :dirtylaundrydev do
   gem 'rbtrace', '>= 0.4.8'
   #gem 'rails-footnotes'
   #gem 'rails-footnotes', github: 'josevalim/rails-footnotes', branch: 'release-4.0'
-  gem 'rails-footnotes', '>= 4.0.2', '< 5'
+  gem 'rails-footnotes', '>= 4.1.0', '< 5'
   gem 'railroady'
   gem 'ruby_gntp'
   # gem 'rack-perftools_profiler', :require => 'rack/perftools_profiler'
@@ -166,7 +166,7 @@ end
 #Testing
 group :development, :test, :dirtylaundrydev do
   #gem 'rspec-rails'
-  gem 'factory_girl_rails', '>= 4.4.1'
+  gem 'factory_girl_rails', '>= 4.5.0'
 
 end
 
@@ -180,8 +180,8 @@ group :test do
   gem 'simplecov', '>= 0.14.1', :require => false, :group => :test
 end
 
-gem 'foundation-rails', '5.3.3.0'
-gem 'sass-rails', '6.0.0'
+gem 'foundation-rails', '5.4.0.0'
+gem 'sass-rails', '5.0.8'
 gem 'sass', '3.2.19'
 gem 'coffee-rails', '4.2.2'
 gem 'sprockets', '4.2.0'
@@ -189,7 +189,7 @@ gem 'sprockets', '4.2.0'
 
 gem 'uglifier', '>= 2.7.2'
 
-gem 'jquery-rails', '>= 4.4.0'
+gem 'jquery-rails', '>= 4.0.1'
 
 gem 'rb-readline'
 
