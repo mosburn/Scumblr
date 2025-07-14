@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '6.1.7.1'
+gem 'rails', '7.0.0'
 
 gem 'zip'
 gem 'lograge', '>= 0.9.0'
@@ -49,7 +49,7 @@ gem 'jira-ruby', '>= 1.2.0'
 gem 'cancan'
 
 #Searching
-gem 'ransack', '>= 1.7.0'
+gem 'ransack', '>= 2.3.1'
 
 #Image processing/attachments
 gem 'paperclip', '>= 5.2.1'
@@ -76,7 +76,7 @@ gem 'sidekiq-limit_fetch', '>= 3.4.0'
 gem 'mlanett-redis-lock', require: 'redis-lock'
 
 #Pagination
-gem 'kaminari', '>= 1.2.1'
+gem 'kaminari', '>= 1.0.0'
 
 #Sidekiq UI
 gem 'sinatra', '>= 2.2.3', require: false
@@ -99,7 +99,7 @@ gem 'responders', '>= 3.0.0'
 gem 'acts_as_commentable_with_threading', '>= 1.2.0'
 
 #JSON API Calls
-gem "active_model_serializers", ">= 0.10.12"
+gem "active_model_serializers", ">= 0.10.3"
 
 # Cron job generation
 gem "whenever", ">= 0.9.2"
@@ -148,7 +148,7 @@ group :development, :dirtylaundrydev do
   gem 'rbtrace', '>= 0.4.8'
   #gem 'rails-footnotes'
   #gem 'rails-footnotes', github: 'josevalim/rails-footnotes', branch: 'release-4.0'
-  gem 'rails-footnotes', '>= 4.0.2', '< 5'
+  gem 'rails-footnotes', '~> 7.0'
   gem 'railroady'
   gem 'ruby_gntp'
   # gem 'rack-perftools_profiler', :require => 'rack/perftools_profiler'
@@ -180,7 +180,7 @@ group :test do
   gem 'simplecov', '>= 0.14.1', :require => false, :group => :test
 end
 
-gem 'foundation-rails', '5.3.3.0'
+gem 'foundation-rails', '6.5.1.0'
 gem 'sass-rails', '6.0.0'
 gem 'sass', '3.2.19'
 gem 'coffee-rails', '4.2.2'
