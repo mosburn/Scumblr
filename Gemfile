@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '6.1.7.1'
+gem 'rails', '7.1.5.2'
 
 gem 'zip'
 gem 'lograge', '>= 0.9.0'
@@ -49,7 +49,7 @@ gem 'jira-ruby', '>= 1.2.0'
 gem 'cancan'
 
 #Searching
-gem 'ransack', '>= 1.7.0'
+gem 'ransack', '>= 1.8.0'
 
 #Image processing/attachments
 gem 'paperclip', '>= 5.2.1'
@@ -66,7 +66,7 @@ gem "select2-rails"
 gem 'oj'
 
 #Bulk edits
-gem 'activerecord-import', '>= 0.5.0'
+gem 'activerecord-import', '>= 0.6.0'
 
 #Used for task queueing
 gem 'sidekiq', '>= 6.2.1'
@@ -96,7 +96,7 @@ gem 'devise', '>= 4.7.1'
 gem 'responders', '>= 3.0.0'
 
 #Comments
-gem 'acts_as_commentable_with_threading', '>= 1.2.0'
+gem 'acts_as_commentable_with_threading', '>= 2.0.0'
 
 #JSON API Calls
 gem "active_model_serializers", ">= 0.10.12"
@@ -148,7 +148,7 @@ group :development, :dirtylaundrydev do
   gem 'rbtrace', '>= 0.4.8'
   #gem 'rails-footnotes'
   #gem 'rails-footnotes', github: 'josevalim/rails-footnotes', branch: 'release-4.0'
-  gem 'rails-footnotes', '>= 4.0.2', '< 5'
+  gem 'rails-footnotes', '>= 4.1.0', '< 5'
   gem 'railroady'
   gem 'ruby_gntp'
   # gem 'rack-perftools_profiler', :require => 'rack/perftools_profiler'
@@ -173,7 +173,7 @@ end
 group :test do
   gem 'database_cleaner'
   gem 'shoulda', '~> 3.5', '>= 3.5.0'
-  gem 'activerecord-nulldb-adapter', '>= 0.3.1'
+  gem 'activerecord-nulldb-adapter', '>= 0.3.2'
   gem 'minitest-reporters'
   gem 'shoulda-matchers', '~> 2.6', '>= 2.6.2'
   gem 'shoulda-callback-matchers', '~> 1.1.4'
