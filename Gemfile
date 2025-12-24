@@ -53,7 +53,7 @@ gem 'ransack', '>= 1.7.0'
 
 #Image processing/attachments
 gem 'paperclip', '>= 5.2.1'
-gem 'aws-sdk'
+gem 'aws-sdk', '>= 3.0.2'
 gem 'aws-sdk-ses'
 
 # Time period parsing
