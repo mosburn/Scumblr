@@ -8,12 +8,12 @@ gem 'lograge', '>= 0.9.0'
 gem 'posix-spawn'
 
 #For Tasks/Search Providers
-gem 'google-api-client', '~> 0.8.6'
-gem "github_api", ">= 0.18.1", require: false
+gem 'google-api-client', '~> 0.53.0'
+gem "github_api", ">= 0.15.0", require: false
 gem 'colorize', require: false
-gem 'twitter', '>= 6.0.0'
+gem 'twitter', '>= 6.2.0'
 gem 'market_bot', '>= 0.17.0'
-gem 'koala'
+gem 'koala', '>= 1.10.1'
 gem "brakeman", ">= 3.3.0", require: false
 gem "bundler-audit"
 gem 'rest-client'
@@ -116,7 +116,7 @@ gem 'ip'
 
 gem 'stackprof'
 
-gem 'faraday'
+gem 'faraday', '>= 2.14.1'
 gem 'net-http-persistent'
 
 gem 'minitest'
